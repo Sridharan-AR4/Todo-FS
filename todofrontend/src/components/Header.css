@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 98, 98);
+}
+.title{
+    margin:5px;
+    h1{
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    Button{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: rgb(231, 46, 55);
+    }
+}
